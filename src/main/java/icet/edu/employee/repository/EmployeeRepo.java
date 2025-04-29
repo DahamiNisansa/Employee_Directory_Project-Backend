@@ -14,5 +14,6 @@ public interface EmployeeRepo extends JpaRepository<EmployeeEntity, Long> {
     boolean existsByEmail(String email);
 
     List<EmployeeEntity> findAllByOrderByNameAsc();
+
     List<EmployeeEntity> findAllByOrderByDepartmentAsc();
 }

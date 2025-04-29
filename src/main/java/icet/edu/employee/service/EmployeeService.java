@@ -20,6 +20,7 @@ public interface EmployeeService {
     EmployeeDto searchEmployeeById(Long id);
 
     List<EmployeeDto> getAllEmployeesSortedByName();
+
     List<EmployeeDto> getAllEmployeesSortedByDepartment();
 
 }
